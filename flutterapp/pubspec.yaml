@@ -1,0 +1,28 @@
+name: congressionalapp
+description: "A Flutter Parkinson's voice analysis research demo"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  record: ^6.1.2
+  path_provider: ^2.1.4
+  permission_handler: ^12.0.1
+  file_picker: ^10.3.3
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/best_model.pt
+    # - assets/logo.png  # Uncomment this line after adding logo.png to the assets folder

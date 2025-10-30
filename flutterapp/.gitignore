@@ -1,0 +1,63 @@
+# Flutter & Dart build outputs
+/build/
+/.dart_tool/
+/.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# Android / Gradle
+/android/.gradle/
+/android/app/build/
+/android/local.properties
+/android/key.properties
+/android/.idea/
+/android/.settings/
+
+# iOS / Xcode
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/App.framework
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/Runner.xcodeproj/project.xcworkspace/
+/ios/.symlinks/
+/ios/DerivedData/
+/ios/.generated/
+
+/macos/Pods/
+/macos/Flutter/ephemeral/
+/linux/flutter/ephemeral/
+/windows/flutter/ephemeral/
+
+# VS Code / JetBrains IDE
+.vscode/
+/.idea/
+
+# User-specific settings
+*.iml
+*.log
+*.tmp
+*.swp
+*.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Dependency cache
+.pub-cache/
+pubspec.lock
+
+# Recordings or model outputs (optional)
+*.wav
+*.mp3
+*.tflite
+*.h5
+*.onnx
+assets/recordings/
+assets/models/*.tflite
+
+# Crash reports / temporary files
+*.crash
+*.orig
+*.rej
+*.bak
